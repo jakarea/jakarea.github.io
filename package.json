@@ -2,6 +2,7 @@
   "name": "gh-pages",
   "author": "thierryc",
   "version": "1.0.2",
+  "homepage": "http://jakarea.github.io/",
   "scripts": {
     "dev": "next",
     "build": "next build",
