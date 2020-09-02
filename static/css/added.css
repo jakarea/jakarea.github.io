@@ -11,7 +11,7 @@
   padding: 0 5px;
 }
 .blog-post {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 .sidebar {
   margin: 20px 0 !important;
@@ -34,7 +34,7 @@
 .clients h5 span,
 .clients p span {
   background-color:#f1f2f4;
-  padding: 0 2.4rem;
+  padding: 10px 2.4rem;
   border : 2px solid rgba(23, 23, 26, 0.1)
 }
 
