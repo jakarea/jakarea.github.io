@@ -1,8 +1,3 @@
-import { HeartFilled } from "@ant-design/icons";
-import { Button } from "antd";
-/***********************
-  Footer Component
- ***********************/
 
 const Footer = (props) => {
   return (
@@ -14,7 +9,7 @@ const Footer = (props) => {
           style={{ color: "white" }}
           target="_blank"
         >
-          Herosony
+          jakarea
         </a>
       </div>
     </section>

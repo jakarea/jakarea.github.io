@@ -1,32 +1,19 @@
 import Head from "next/head";
-import {
-  Layout,
-  Menu,
-  Image,
-  Avatar,
-  Tooltip,
-  Button,
-  List,
-  Typography,
-} from "antd";
-import Icon from "@ant-design/icons";
-import {
-  FacebookSvg,
-  YoutubeSvg,
-  InstagramSvg,
-  TwitterSvg,
-} from "../components/icons";
+import Projects from "../components/projects.component";
+import Footer from "../components/footer.component";
+import Header from "../components/header.component";
+
 import Link from "next/link";
 import { _Header } from "../_includes/header";
 import Nav from "../components/nav.component";
 
-const { Header } = Layout;
-
-export default function Contact() {
+export default function Blog() {
   return (
-    <Layout>
+     <>
       <Nav />
-      <Layout className="site-layout">Blog </Layout>
-    </Layout>
+      <Header />
+      <Projects />
+      <Footer />
+    </>
   );
 }

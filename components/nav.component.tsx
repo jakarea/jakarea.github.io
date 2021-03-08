@@ -14,25 +14,22 @@ const Nav = (props) => {
       url: "/",
       section: "navbar",
     },
-    // {
-    //   title: "Blog",
-    //   url: "/blog",
-    //   section: "projects",
-    // },
-    // {
-    //   title: "Contact",
-    //   url: "/contact",
-    // },
+    {
+      title: "Blog",
+      url: "/blog",
+      section: "projects",
+    },
+    {
+      title: "Contact",
+      url: "/contact",
+    },
   ];
 
   return (
     <>
       <nav id="navbar">
         <div className="nav-wrapper">
-          <p className="brand">
-            HERO
-            <strong>SONY</strong>
-          </p>
+          <p className="brand">Jakarea Parvez </p>
 
           <Menu
             theme="light"
@@ -49,7 +46,6 @@ const Nav = (props) => {
                 }
               >
                 <Link href={item.url}>{item.title}</Link>
-                {/* <a href={`#${item.section}`}>{item.title}</a> */}
               </Menu.Item>
             ))}
           </Menu>
