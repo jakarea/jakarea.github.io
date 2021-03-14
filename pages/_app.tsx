@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="author" content="Jakarea"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
         <title>Jakarea Parvez - Personal Portfolio</title>
-        <base href="http://localhost:3000/"></base>
+        <base href="https://jakarea.github.io/"></base>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"/>
         <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
