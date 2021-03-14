@@ -1,18 +1,13 @@
-import Head from "next/head";
-import Projects from "../components/projects.component";
-import Footer from "../components/footer.component";
-import Header from "../components/header.component";
-
-import Link from "next/link";
-import { _Header } from "../_includes/header";
+import React, { useEffect } from "react";
 import Nav from "../components/nav.component";
+import Blog from "../components/blog.com";
+import Footer from "../components/footer.component";
 
-export default function Blog() {
+export default function Home(props) {
   return (
-     <>
+    <>
       <Nav />
-      <Header />
-      <Projects />
+      <Blog />
       <Footer />
     </>
   );

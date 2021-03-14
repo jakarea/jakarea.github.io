@@ -1,18 +1,11 @@
 
 const Footer = (props) => {
   return (
-    <section id="footer">
-      <div className="container">
-        Made with ♥️ by{" "}
-        <a
-          href="https://twitter.com/Hero_Sony"
-          style={{ color: "white" }}
-          target="_blank"
-        >
-          jakarea
-        </a>
-      </div>
-    </section>
+    <footer className="footerr">
+    <div className="sub-footer  text-center">
+      <p>Copy Right © By Jakarea Parvez 2014-2021 | All Rights Reserved.</p>
+    </div>
+  </footer>
   );
 };
 
