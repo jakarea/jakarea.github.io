@@ -2,6 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/blog": "pages/blog.js",
+  "/blog/vuex-what-why-when-and-where-85ca471fe217": "pages/blog/vuex-what-why-when-and-where-85ca471fe217.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/": "pages/index.js",
   "/projects": "pages/projects.js"
 }
