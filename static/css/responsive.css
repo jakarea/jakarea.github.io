@@ -1,0 +1,156 @@
+		@media (max-width: 1399.98px) { 
+
+		}
+
+		@media (max-width: 1199.98px) {
+
+		}
+
+		@media (max-width: 991.98px) {
+			.project-pic{
+				display: none;
+			}
+			.project-pic.first{
+				display: block;
+			}
+		}
+
+		@media (max-width: 767.98px) {
+			nav ul{
+				padding-top: 20px;
+			}
+			.personal-pic {
+				width: 65%;
+			}	
+			.clients{
+				margin: 30px 20px;
+			}
+			.section {
+				padding-top: 100px;
+			}
+			.navbar.navbar-expand-lg {
+		  		padding: 0;
+			}
+			.nav.navbar-nav.navbar-right li a {
+			  display: block;
+			}
+			.home-banner .welcome-text h3{
+				font-size: 28px;
+			}
+			.home-banner .welcome-text h2 {
+				padding: 10px 0 15px;
+				font-size: 40px;
+				line-height: 40px;
+			}
+			.home-banner .welcome-text p{
+				padding: 0 0 15px;
+				font-size: 14px;
+			}
+			.home-banner .welcome-text .m-btn{
+				line-height: 40px;
+				padding: 0 25px;
+				font-size: 13px;
+			}	
+			
+			.personal-info .m-btn{
+				padding: 0 15px;
+			}	
+			.service-box{
+				margin: 15px 0;
+			}	
+			.resume-box {
+				margin: 15px 0;
+			}
+			.portfolio-box .filter{
+				padding-bottom: 30px;
+			}
+			.portfolio-box .filter button {
+				margin: 0 5px;
+			}
+			.portfolio-col:hover .hover{
+				padding: 10px;
+			}
+			.portfolio-col .hover h4{
+				font-size: 16px;
+			}
+			.blog-item {
+				margin: 15px 0;
+			}
+			.contact-form {
+				margin-bottom: 30px;
+			}
+		}
+
+		@media (max-width: 575.98px) {
+			.personal-info h3{
+				font-size: 20px;
+			}
+			.bg.project .skills ul li {
+				font-size: 10px;
+			}
+
+		}
+		@media (max-width: 500px){
+			.personal-info{
+				padding: 0 20px;
+			}
+			.personal-info .section-title h2{
+				font-size: 20px;
+			}
+			.resume-box.blog-post h4 a,.resume-box.blog-post.sidebar .section-title h2{
+				font-size: 20px;
+			}
+			.row.project-row.bg.project{
+				padding: 50px 0px;
+			}
+			.bg.project .skills ul li {
+				font-size: 7px;
+			}
+			.bg.project .skills ul li a {
+			  padding: 3px 5px;
+			}
+			
+		}
+		@media (max-width: 320px) {
+			
+			.navbar img{
+				width: 200px;
+			}
+			.personal-info{
+				padding: 0 10px;
+			}
+			.personal-info .section-title h2{
+				font-size: 20px;
+			}
+			.about-actions .cv{
+				margin-top: 15px;
+			}
+			.m-btn.lets-talk.news, .m-btn.cv{
+				font-size: 10px;
+				padding: 0 10px;
+			}
+			
+		}
+		@media (max-width: 287px) {
+			
+			.social-link .fb{
+				margin-top: 10px;
+			}
+			.resume-box.blog-post.sidebar .search_box{
+				margin-bottom: 15px;
+			}
+			.personal-info .about-actions a{
+				font-size: 10px;
+			}
+			.m-btn.lets-talk.news, .m-btn.cv{
+				font-size: 10px;
+				padding: 0 10px;
+			}
+			.personal-info .social-link{
+			    padding: 10px 0;
+			}
+			.side-form input {
+			  width: 60%;
+			}
+		}
+
